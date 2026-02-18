@@ -137,3 +137,26 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Vite cache
+node_modules/.vite/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Uploaded / generated files
+uploads/
+storage/
+tmp/
+*.pdf
+*.csv
+*.xlsx
+
+# Local DB files
+*.sqlite
+*.sqlite3
+*.db
